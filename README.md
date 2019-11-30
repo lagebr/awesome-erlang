@@ -129,6 +129,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 * [folsom](https://github.com/boundary/folsom) - An Erlang based metrics system inspired by Coda Hale's [metrics](https://github.com/codahale/metrics).
 * [statsderl](https://github.com/lpgauth/statsderl) - A statsd Erlang client.
 * [vmstats](https://github.com/ferd/vmstats) - Tiny Erlang app that works in conjunction with statsderl in order to generate information on the Erlang VM for graphite logs.
+* [telemetry](https://github.com/beam-telemetry/telemetry) - Dynamic dispatching library for metrics and instrumentations. 
 
 ## Deployment
 *Libraries and tools related to deployment of Erlang/OTP applications.*
