@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Awesome Erlang [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Analytics](https://ga-beacon.appspot.com/UA-82766782-1/awesome-erlang?flat&useReferer)](https://github.com/drobakowski/awesome-erlang)
 A curated list of amazingly awesome Erlang libraries, resources and shiny thing inspired by [awesome-elixir](https://github.com/h4cc/awesome-elixir).
 
@@ -103,6 +102,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Libraries for testing codebases and generating test data.*
 
 * [etest](https://github.com/wooga/etest) - A lightweight, convention over configuration test framework for Erlang
+* [Bookish spork](https://github.com/tank-bohr/bookish_spork) - Erlang/Elixir library for testing HTTP requests
 * [PropEr](https://github.com/manopapad/proper) - A QuickCheck-inspired property-based testing tool for Erlang.
 * [tracerl](https://github.com/esl/tracerl) - Dynamic tracing tests and utilities for Erlang/OTP
 * [CTTAP](https://github.com/Stratus3D/CTTAP) - A Test Anything Protocol (TAP) producer that integrates with Common Test suites via a CT hook.
