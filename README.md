@@ -47,7 +47,6 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 ## Package Management
 *Libraries and tools for package and dependency management.*
 
-* [EnotHub](https://enot.justtech.blog/) - Service for hosting prebuilt Erlang packages.
 * [hex.pm](https://hex.pm/) - A package manager for the Erlang ecosystem.
 
 ## Release Management
@@ -74,7 +73,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 * [Axiom](https://github.com/tsujigiri/axiom) - A micro-framework, inspired by Ruby's [Sinatra](https://github.com/sinatra/sinatra).
 * [ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) - A server framework inspired by Rails and written in Erlang.
 * [cowboy](https://github.com/ninenines/cowboy) - A simple HTTP server.
-* [Giallo](https://github.com/kivra/giallo) - A small and flexible web framework on top of [Cowboy](https://github.com/ninenines/cowboy).
+* [Giallo](https://github.com/kivra/giallo) - A small and flexible web framework on top of Cowboy.
 * [MochiWeb](https://github.com/mochi/mochiweb) - An Erlang library for building lightweight HTTP servers.
 * [N2O](https://github.com/synrc/n2o) - WebSocket Application Server.
 * [Nitrogen](https://github.com/nitrogen/nitrogen) - Framework to build web applications (including front-end) in pure Erlang.
@@ -104,7 +103,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 
 * [etest](https://github.com/wooga/etest) - A lightweight, convention over configuration test framework for Erlang
 * [Bookish spork](https://github.com/tank-bohr/bookish_spork) - Erlang/Elixir library for testing HTTP requests
-* [PropEr](https://github.com/manopapad/proper) - A QuickCheck-inspired property-based testing tool for Erlang.
+* [PropEr](https://github.com/proper-testing/proper) - A QuickCheck-inspired property-based testing tool for Erlang.
 * [tracerl](https://github.com/esl/tracerl) - Dynamic tracing tests and utilities for Erlang/OTP
 * [CTTAP](https://github.com/Stratus3D/CTTAP) - A Test Anything Protocol (TAP) producer that integrates with Common Test suites via a CT hook.
 * [coveralls-erl](https://github.com/markusn/coveralls-erl) - Erlang module to convert and send cover data to coveralls.io (or similar).
@@ -153,9 +152,9 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Project build and automation tools.*
 
 * [erlang.mk](https://github.com/ninenines/erlang.mk) - A build tool for Erlang that just works. Embrace the power and simplicity of Makefiles.
-* [Enot](https://github.com/comtihon/enot) - Package manager, build and deploy tool.
+* Enot - Package manager, build and deploy tool.
 * [rebar](https://github.com/rebar/rebar) - Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases.
-* [rebar3](https://github.com/rebar/rebar3) - A build tool for Erlang which can manage Erlang packages from [Hex.pm](https://hex.pm/). See more at [rebar3.org](https://www.rebar3.org/)
+* [rebar3](https://github.com/erlang/rebar3) - A build tool for Erlang which can manage Erlang packages from Hex.pm. See more at [rebar3.org](https://www.rebar3.org/)
 * [sync](https://github.com/rustyio/sync) - On-the-fly recompiling for Erlang.
 
 ## Games
@@ -224,8 +223,8 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 ## REST and API
 *Libraries and web tools for developing REST-ful APIs.*
 
-* [leptus](https://github.com/s1n4/leptus) - Leptus is an Erlang REST framework that runs on top of cowboy.
-* [rooster](https://github.com/FelipeBB/rooster) - rooster is a lightweight REST framework that runs on top of mochiweb.
+* [leptus](https://github.com/sinasamavati/leptus) - Leptus is an Erlang REST framework that runs on top of cowboy.
+* [rooster](https://github.com/fbeline/rooster) - rooster is a lightweight REST framework that runs on top of mochiweb.
 
 ## Caching
 *Libraries for caching data.*
@@ -254,7 +253,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 
 * [GRiSP](https://grisp.org/) - Run the Erlang VM on an IoT board with many hardware interfaces and low-level drivers using a small realtime unikernel called RTEMS
 * [lemma_erlang](https://github.com/noam-io/lemma_erlang) - A lemma for IDEO's Noam internet-of-things prototyping platform.
-* [emqttd](https://github.com/emqtt/emqttd/) - EMQ - Erlang MQTT Broker.
+* [emqttd](https://github.com/emqx/emqx/) - EMQ X Broker - Erlang MQTT Broker.
 
 ## Algorithms and Datastructures
 *Libraries and implementations of algorithms and datastructures.*
@@ -285,7 +284,7 @@ Various resources, such as books, websites and articles, for improving your Erla
 ## Websites
 *Useful web and Erlang-related websites and newsletters.*
 
-* [Erlang Bookmarks](https://github.com/0xAX/erlang-bookmarks/wiki/Erlang-bookmarks) - All about erlang programming language [powerd by community].
+* [Erlang Bookmarks](https://github.com/0xAX/erlang-bookmarks) - All about erlang programming language [powerd by community].
 * [Erlang Central](https://erlangcentral.org/) - An awesome collections of erlang resource along with live community chat for discussing and seeking help.
 * [Planet Erlang](http://www.planeterlang.com/) - Planet site/RSS feed of blog posts covering topics across the Erlang ecosystem.
 * [Spawned Shelter](http://spawnedshelter.com/) - Erlang Spawned Shelter. A collection of the best articles, videos and presentations related to Erlang.
@@ -294,7 +293,7 @@ Various resources, such as books, websites and articles, for improving your Erla
 *Fantastic books and e-books.*
 
 * [Erlang and Elixir for Imperative Programmers](https://leanpub.com/erlangandelixirforimperativeprogrammers) - Introduction to Erlang and Elixir in the context of functional concepts by Wolfgang Loder (2016)
-* [Learn You Some Erlang](http://learnyousomeerlang.com/) - Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment.
+* [Learn You Some Erlang](https://learnyousomeerlang.com/) - Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment.
 * [Stuff Goes Bad - ERLANG IN ANGER](http://www.erlang-in-anger.com/) - This book intends to be a little guide about how to be the Erlang medic in a time of war.
 
 ## Web Reading
@@ -303,7 +302,7 @@ Various resources, such as books, websites and articles, for improving your Erla
 ## Erlang Reading
 *Erlang-releated reading materials.*
 
-* [The Joy of Erlang; Or, How To Ride A Toruk](http://www.evanmiller.org/joy-of-erlang.html) - The Joy of Erlang; Or, How To Ride A Toruk A fast track introduction to Erlang that teaches the language by walking through a few example projects.
+* [The Joy of Erlang; Or, How To Ride A Toruk](https://www.evanmiller.org/joy-of-erlang.html) - The Joy of Erlang; Or, How To Ride A Toruk A fast track introduction to Erlang that teaches the language by walking through a few example projects.
 
 ## Screencasts
 *Cool video tutorials.*
