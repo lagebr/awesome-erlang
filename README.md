@@ -295,6 +295,7 @@ Various resources, such as books, websites and articles, for improving your Erla
 * [Erlang and Elixir for Imperative Programmers](https://leanpub.com/erlangandelixirforimperativeprogrammers) - Introduction to Erlang and Elixir in the context of functional concepts by Wolfgang Loder (2016)
 * [Learn You Some Erlang](https://learnyousomeerlang.com/) - Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment.
 * [Stuff Goes Bad - ERLANG IN ANGER](http://www.erlang-in-anger.com/) - This book intends to be a little guide about how to be the Erlang medic in a time of war.
+* [Adopting Erlang](https://adoptingerlang.org/) - Adopting Erlang is an ongoing effort to gather all the resources that will help you use Erlang in a business.
 
 ## Web Reading
 *General web-development-related reading materials.*
